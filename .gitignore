@@ -1,33 +1,16 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-
 # Environment variables
 .env
-.env.local
-.env*.local
+.env.*
+!.env.example
 
-# Logs
-*.log
-logs/
+# Dependencies
+/node_modules
 
-# IDE/Editor
-.vscode/
-.idea/
-*.swp
-*.swo
+# TypeScript build output
+/dist
 
-# OS/Editor temp files
+# OS generated files
 .DS_Store
-Thumbs.db
-*.sublime-workspace
 
-# Build/CI
-dist/
-coverage/
-.nyc_output/
-
-# Optional (for TypeScript or Babel)
-*.js.map
-*.tsbuildinfo
+# Test coverage
+/coverage
