@@ -26,7 +26,9 @@
     "license": "ISC",
     "type": "module",
     "dependencies": {
-        "express": "^5.1.0"
+        "drizzle-orm": "^0.44.2",
+        "express": "^5.1.0",
+        "pg": "^8.16.2"
     },
     "devDependencies": {
         "@eslint/js": "^9.29.0",
@@ -35,6 +37,7 @@
         "@types/node": "^24.0.3",
         "@vitest/coverage-v8": "^3.2.4",
         "@vitest/eslint-plugin": "^1.2.7",
+        "drizzle-kit": "^0.31.2",
         "eslint": "^9.29.0",
         "eslint-plugin-perfectionist": "^4.15.0",
         "husky": "^9.1.7",
