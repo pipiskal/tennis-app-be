@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS/Editor temp files
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# Build/CI
+dist/
+coverage/
+.nyc_output/
+
+# Optional (for TypeScript or Babel)
+*.js.map
+*.tsbuildinfo
